@@ -1,0 +1,23 @@
+public class Televisi {
+		String warna = "hitam";
+		String merk = "panasonic";
+		
+		void aman() {
+			System.out.println("Televisi " + merk + " warna " + warna + " bisa nyala");
+		}
+		
+		void rusak() {
+			System.out.println("Televisi " + merk + " warna " + warna + " layar bermasalah");
+		}
+		
+		public static void main(String[] args) {
+			Televisi TelevisiSaya = new Televisi();
+			
+			TelevisiSaya.aman();
+			TelevisiSaya.rusak();
+			
+			
+		}
+
+
+}
